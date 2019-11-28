@@ -82,7 +82,7 @@ public Empleado_Planilla(){
         else 
             return 0.0;
     }
-     private double bonoHijos ()
+     public double bonoHijos ()
     {
         if ( getCant_hijos() > 0 && getCant_hijos() <= 2)
             return sueldoBruto() * 0.032;
